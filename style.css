@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  width: 370px;
+  margin: auto;
+  border-radius: 30px;
+}
+#calc {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  color: #0984e3;
+  height: 450px;
+  gap: 10px;
+  justify-items: center;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: #040303;
+  border-radius: 0 0 30px 30px;
+}
+.results {
+  border-radius: 30px 30px 0 0;
+  background-color: #040303;
+  height: 150px;
+  margin-top: 25px;
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  width: 50px;
+  background-color: #2d3436;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn:hover {
+  background-color: #0984e3;
+  color: #2d3436;
+}
+.hi {
+  background-color: #0984e3;
+  color: #dfe6e9;
+}
+.hi:hover {
+  background-color: #dfe6e9;
+  color: #0984e3;
+}
+
+#backspace,
+#clear {
+  background-color: #dcdde1;
+  color: #7f8fa6;
+}
+
+#clear:hover {
+  background-color: #7f8fa6;
+  color: #dcdde1;
+}
+#backspace:hover {
+  background-color: #7f8fa6;
+  color: #dcdde1;
+}
